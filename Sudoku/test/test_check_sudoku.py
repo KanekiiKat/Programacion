@@ -1,3 +1,7 @@
+
+
+
+'''
 correct = [[1, 2, 3],
            [2, 3, 1],
            [3, 1, 2]]
@@ -48,3 +52,4 @@ nuevo = [[]]
 # attr.startswith('__') el el main
 
 __oculto = [[1]]
+'''
