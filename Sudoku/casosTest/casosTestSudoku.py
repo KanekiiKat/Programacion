@@ -2,16 +2,16 @@ correct = [[1, 2, 3],
            [2, 3, 1],
            [3, 1, 2]]
 
-incorrect = [[1, 2, 3, 4],
-             [2, 3, 1, 3],
-             [3, 1, 2, 3],
-             [4, 4, 4, 2]]
+incorrect_matching_numbers = [[1, 2, 3, 4],
+                           [2, 3, 1, 3],
+                           [3, 1, 2, 3],
+                           [4, 4, 4, 2]]
 
-incorrect1 = [[1, 2, 3],
-              [2, 3, 1],
-              [2, 3, 1]]
+incorrect1_matching_numbers = [[1, 2, 3],
+                            [2, 3, 1],
+                            [2, 3, 1]]
 
-incorrect2 = [[1, 2, 3, 4],
+incorrect2_matching_numbers = [[1, 2, 3, 4],
               [2, 3, 1, 2],
               [4, 1, 2, 3],
               [2, 3, 1, 4]]
@@ -37,14 +37,6 @@ irregular2 = [[1, 2, 3],
               [3, 1]]
 nuevo = [[]]
 
-# Para evitar importar una variable al usar:
-# from modulo import *
-# se emplea __nombreVariable
-# En nuestro caso utilizo import as
-# porque necesito nombrar el espacio de nombres
-# que define este modulo
-# por lo que no puedo usar *
-# Este caso test no pasa el filtro
-# attr.startswith('__') el el main
+
 
 __oculto = [[1]]
